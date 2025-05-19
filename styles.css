@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 
 body {
-    background: hsl(280, 4%, 87%);
-    color: hsl(223, 18%, 36%);
-    font-family: "Poppins", sans-serif;
+    background: hsl(280, 13%, 87%);
+    color: hsl(223, 10%, 36%);
+    font-family: "Poppins", Arial, sans-serif;
     font-weight: 300;
 }
 
 h1, h2, h3 {
-    color: hsl(281, 41%, 48%);
-    font-family: "Poppins", sans-serif;
+    color: hsl(281, 26%, 48%);
+    font-weight: 500;
 }
 
 ul {
@@ -18,27 +18,22 @@ ul {
 
 button {
     color: hsl(0, 0%, 100%);
-    background: hsl(281, 41%, 48%);
-    font-weight: 500;
-    text-align: center;
-    font-size: 25px;
+    background-color: hsl(281, 26%, 48%);
+    font-size: 24px;
 }
 
 button:hover {
-    color: hsl(0, 0%, 100%);
-    background: hsl(223, 18%, 36%);
+    background: hsl(223, 10%, 36%);
 }
 
 .title {
     text-align: center;
     text-decoration: underline;
-    font-weight: 500;
 }
 
 .subtitle {
     text-align: center;
     text-transform: uppercase;
-    font-weight: 500;
     letter-spacing: 0.3em;
 }
 
